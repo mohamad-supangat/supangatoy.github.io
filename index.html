@@ -1,1 +1,36 @@
-# supangatoy.github.io
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <title>Alat Registrasi Aplikasi Supangat Oy</title>
+</head>
+<body> 
+  <div class="container">
+    <div class="card shadow">
+      <div class="card-body">
+        <form target="test" method="post">
+            <div class="form-group">
+              <label>Alamat Aplikasi</label>
+              <input class="form-control" type="text" name="url"  value="" onchange="return reg()">
+            </div>
+            <div class="form-group">
+              <label>Kode Reg</label>
+              <input class="form-control" type="text" name="kodeReg"  value="">
+            </div>
+            <div class="form-group">
+              
+              <button  name="aktivasijos" value="supangatganteng" type="submit" class="btn btn-success">Submit Kode</button>
+              <div class="pull-right">
+                <h6>Supangat &copy; 2019</h6>
+              </div>
+            </div>
+        </form>
+      </div>
+      <div class="card-footer">
+        <iframe  name="test"></iframe>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
