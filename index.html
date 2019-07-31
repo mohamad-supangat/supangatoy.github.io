@@ -1,36 +1,184 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <title>Alat Registrasi Aplikasi Supangat Oy</title>
-</head>
-<body> 
-  <div class="container">
-    <div class="card shadow">
-      <div class="card-body">
-        <form target="test" method="post">
-            <div class="form-group">
-              <label>Alamat Aplikasi</label>
-              <input class="form-control" type="text" name="url"  value="" onchange="return reg()">
-            </div>
-            <div class="form-group">
-              <label>Kode Reg</label>
-              <input class="form-control" type="text" name="kodeReg"  value="">
-            </div>
-            <div class="form-group">
-              
-              <button  name="aktivasijos" value="supangatganteng" type="submit" class="btn btn-success">Submit Kode</button>
-              <div class="pull-right">
-                <h6>Supangat &copy; 2019</h6>
-              </div>
-            </div>
-        </form>
-      </div>
-      <div class="card-footer">
-        <iframe  name="test"></iframe>
-      </div>
-    </div>
-  </div>
+<html lang="id">
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <meta name='license' content='Supangat'>
+        <meta name='framework' content='Supangat'>
+        <meta name='geo.country' content='id'/>
+        <meta name='author' content='Mohamad Supangat'>
+        <title>Portofolio Saya</title>
 
-</body>
-</html>
+
+        <link rel="stylesheet" href="assets/plugin/bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="assets/plugin/sp/custom.css">
+        <meta name="csrf-token" content="{!! csrf_token() !!}">
+        <style type="text/css">
+            body {
+                margin-top: 80px;
+            }
+        </style>
+
+    </head>
+    <body>
+
+        <main role="main">
+          <nav class="navbar fixed-top  navbar-expand-md navbar-dark bg-dark ">
+            <a class="navbar-brand font-jos" href="#">Supangat <small>My Portofolio</small></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#tentang">Tentang Saya</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#skill">Skill</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portofolio.html">Portofolio</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+          <div class="container mt-3">
+              <div class="row">
+                  <div class="col-md-8">
+                    <div class="card card-profile" id="tentang">
+                      <div class="card-header" style="background: url('img/bg-profile.jpg'); background-size: 100% auto; background-position: center;">
+
+                      </div>
+                      <div class="card-body" style="font-size: 18px">
+                          <div class="text-center">
+                            <img src="img/image823.png" class="card-profile-img" >
+                          </div>
+                          <div class="row">
+                              <div class="col-md-12 text-center">
+                                  <p>
+                                      Hello, nama saya <b>Mohmad Supangat</b>, sering dipanggil <b>Supangat</b>
+                                  </p>
+                                  <p>
+                                      Hobi saya sejak kecil berselancaar di dunia internet, dan belajar tentang bagaimana perkembangan di dunia maya. 
+                                  </p>
+                                  <p>
+                                      Saya tidak suka bermain game, dan lebih suka belajar mengenai bahasa pemrograman.
+                                  </p>
+                                  <br>
+
+                                  <table class="table text-left">
+                                      <tr>
+                                          <td nowrap="nowrap">
+                                              Tempat, Tanggal lahir
+                                          </td>
+                                          <td>
+                                              : Banyumas, 17 desember 2000
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td>
+                                              Alamat
+                                          </td>
+                                          <td>
+                                              : Jl. Anjir Rt9/2 Kasegeran, Cilongok , Banyumas, Jawa Tengah
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td>
+                                              No. Telp
+                                          </td>
+                                          <td>
+                                              : <b>
+                                                  083873272419 <i class="text-danger">(Wa & Telegram)</i>
+                                              </b>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td>Email</td>
+                                          <td>
+                                              : <b>supangatoy@gmail.com</b>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td>Github</td>
+                                          <td>
+                                              : <i><a href="https://github.com/supangatoy/">https://github.com/supangatoy</a></i>
+                                          </td>
+                                      </tr>
+                                  </table>
+                              </div>
+                          </div>            
+                      </div>
+                  </div>
+
+                  </div>
+                  <div class="col-md-4">
+                      <div class="card " id="skill">
+                          <div class="card-header">
+                              <h2 class="card-title font-jos">
+                                  Kemampuan & Skill
+                              </h2>
+                          </div>
+                          <div class="card-body">
+                              <div>
+                                  <ul class="timeline">
+                                      <li>
+                                          <span class="lead">
+                                              HTML5, CSS3, JavaScript
+                                          </span>
+                                      </li>
+                                      <li>
+                                          <span class="lead">
+                                              Jquery, Bootstrap, Materialize, adminLTE, 
+                                          </span>
+                                      </li>
+                                      <li>
+                                          <span class="lead">
+                                              PHP Native, CodeIgniter, Laravel
+                                          </span>
+                                      </li>
+                                      <li>
+                                          <span class="lead">
+                                              MySQL, MariaDB, PostgresSQL
+                                          </span>
+                                      </li>
+                                      <li>
+                                          <span class="lead">
+                                              Windows OS, GNU/ Linux , Server
+                                          </span>
+                                      </li>
+                                      <li>
+                                          <span class="lead">
+                                              Microsoft Office
+                                          </span>
+                                      </li>
+                                  </ul>         
+                              </div>
+                          </div>
+                          
+                      </div>
+                  </div>
+
+              </div>
+
+          </div>
+
+        </main>
+        <div class="text-center p-5">
+            <h5 class="text-muted">
+                <i>
+                    supangat &copy; 2019
+                </i>
+            </h5>
+        </div>
+    </body>
+ </html>
+<script src="assets/plugin/jquery/jquery.min.js"></script>
+<script src="assets/plugin/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/plugin/sp/custom.js"></script>    
+<script type="text/javascript">
+    $("[type='text']").attr('autocomplete', 'off');
+</script>
