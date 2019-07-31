@@ -5,10 +5,32 @@
     "isi"     : "Memenangkan Juara 3 tingkat kabupaten 2 tahun berturut mewakili sekolah"
   },
   {
-    "nama":"Portal SMK Ma'arif NU 1 Ajibarang",
-    "img":"smkmanusa.png",
-    "status":["success","production"],
-    "url":"https://smkmaarifnu1ajibarang.sch.id/",
-    "isi":"Portal Resmi Website <b>SMK Ma'arif NU 1 Ajibarang </b> sebagai ucapan selamat datang kepada pengunjung / masyarakat yang ingin mengenal lebih lanjut mengenai <b>SMK Ma'arif NU 1 AJibarang</b>"
+    "nama"    : "Portal SMK Ma'arif NU 1 Ajibarang",
+    "img"    : "smkmanusa.png",
+    "status"  :["primary","production"],
+    "url"     : "https://smkmaarifnu1ajibarang.sch.id/",
+    "isi"     : "Portal Resmi Website <b>SMK Ma'arif NU 1 Ajibarang </b> sebagai ucapan selamat datang kepada pengunjung / masyarakat yang ingin mengenal lebih lanjut mengenai <b>SMK Ma'arif NU 1 AJibarang</b>"
+  },{
+    "nama"    : "PPDB SMK Ma'arif NU 1 Ajibarang",
+    "img"    : "2019-07-22_10-25.png",
+    "status"  :["primary","production"],
+    "url"     : "https://ppd.smkmaarifnu1ajibarang.sch.id/",
+    "isi"     : "<i>Aplikasi Pendafaran Peserta didik baru</i> <b>SMK Ma'arif NU 1 Ajibarang</b> bertugas sebagai portal pendaftaran siswa dan siswi baru"
+  },{
+    "nama"    : "Pembayaran Daftar Ulang Peserta Baru SMK Ma'arif NU 1 Ajibarang",
+    "img"    : "2019-07-22_10-32.png",
+    "status"  :["primary","production"],
+    "isi"     : "<i>Aplikasi pembayaran Daftar Ulang Pendafaran Peserta didik baru</i> <b>SMK Ma'arif NU 1 Ajibarang</b> bertugas sebagai pengelolaan pembayaran daftar ulang bagi  siswa dan siswi baru"
+  },{
+    "nama"    : "Aplikasi E-learning & CBT",
+    "img"    : "2019-07-22_10-37.png",
+    "status"  :["primary","production"],
+    "isi"     : "Aplikasi yang bekerja sebagai wadah sekolah waya / sekolah online, yang berisi pelajaran, serta kuis / ujian dengan prinsip mirip dengan <i>UNBK</i>"
+  },{
+    "nama"    : "Aplikasi Pembayaran  SMK Ma'arif NU 1 Ajibarang",
+    "img"     : "2019-07-22_10-41.png",
+    "status"  :["primary","production"],
+    "url"     : "https://tu.smkmaarifnu1ajibarang.sch.id  ",
+    "isi"     : "Aplikasi yang bekerja sebagai pengelola pembayaran bulanan dan daftar ulang yang akan digunakan sebagai master data di <b>SMK Ma'arif NU 1 Ajibarang</b></i>"
   }
 ]
